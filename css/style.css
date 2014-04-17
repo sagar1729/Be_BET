@@ -1,0 +1,276 @@
+
+/* additional css for form START */
+
+@import url('bootstrap.min.css');
+@import url('bootstrap-responsive.min.css');
+
+/* New styles below */
+
+		label.valid {
+		  width: 24px;
+		  height: 24px;
+		  background: url(assets/img/valid.png) center center no-repeat;
+		  display: inline-block;
+		  text-indent: -9999px;
+		}
+		label.error {
+			font-weight: bold;
+			color: red;
+			padding: 2px 8px;
+			margin-top: 2px;
+		}
+
+                input{ height:30px;}
+
+/* additional css for form END */
+@font-face
+{
+src:url('Roboto-Regular.ttf');
+font-family:Roboto;
+}
+
+@font-face
+{
+src:url('bauhs.ttf');
+font-family:bauhs;
+}
+
+body
+{
+color:black;
+font-size:20px;
+font-family:Roboto;
+background:#f2f2f2;
+font-size:25px;
+}
+
+.control-label
+{
+color:white;
+}
+td,th
+{
+padding-bottom:25px;
+width:200px;
+}
+
+.fullBg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+
+#header_content
+{
+background-color:white;
+height:100px;
+border: 2px solid #f2efef;
+}
+
+
+#header_boundary
+{
+background-color:#065852;
+height:10px;
+}
+#logo_row
+{
+text-align:center;
+margin-top:30px;
+margin-bottom:30px;
+}
+#left_content
+{
+background-color:#74cfae;
+color:white;
+min-height:800px;
+}
+#right_content
+{
+background:rgba(95%, 94%, 94%,0.4);
+min-height:800px;
+padding-top:30px;
+background:#74cfae;
+color:white;
+height:100%;
+}
+#right_content .row,#right_content .tabbable
+{
+padding-left:20%;
+}
+#log
+{
+width:100px;
+height:50px;
+background:#74CFAE;
+float:left;
+color:white;
+padding-left:15px;
+padding-top:15px;
+font-family:bauhs;
+font-weight:bold;
+border:1px solid #b8bab9;
+box-shadow: 5px 5px 5px #888888;
+}
+/* header_navigation */
+
+.navbar-default {
+border-color: transparent;
+background-color: #dadada;
+}
+
+
+.navbar-toggle {
+border-color: transparent;
+border: 0px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #16a085;
+	color: white;
+}
+.navbar-nav li
+{
+  padding-left:20px;
+  padding-top:20px;  
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus ,
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus ,
+.nav-pills>.active>a, .nav-pills>.active>a:hover {
+background:#f5f5f5;
+}
+
+
+#header_content a
+{
+font-size:20px;
+font-family:Calibri;
+ font-weight:bold; 
+text-transform:uppercase;
+letter-spacing:3px;
+color:#74cfae;
+}
+
+#header_content a:hover
+{
+opacity:0.6;
+}
+#navi 
+{
+padding-left:25%;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    word-wrap: break-word;
+    
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #c0392b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* header_navigation end */
+
+/* left_content */
+
+.list-group-item
+{
+background:none;
+border:none;
+color:white;
+}
+a.list-group-item
+{
+color:white;
+font-weight:bold;
+font-size:12px;
+}
+
+a.list-group-item:hover,
+a.list-group-item:focus 
+{
+background: rgba(255, 255, 255, .2);
+}
+#left_content
+{
+padding:0px;
+}
+
+/* end of left content */
+/* header font sizes */
+h1 {
+    font-size: 1.1em;
+    color: #0d3692;
+}
+h2.section {    
+    font-size:1.1em;
+    color: #0d3692;
+    border-bottom: 2px solid #b3d32d
+}
+h2 {
+    font-size: 1.1em;
+}
+h3.subhead1 {
+    font-size: 1.1em;   
+    color: #0d3692; 
+    border-bottom: 2px solid #0d3692;
+}
+h3 {
+    font-size: 1.1em;
+}
+h4 {
+    font-size: 1.05em; 
+}
+/* enf of header font sizes */
+
+/* addtional css */
+
+.factbuffet_figure
+{
+font-size:40px;
+font-weight:bold;
+
+}
+
+.navbar-inverse
+{
+background-color:white;
+}
+.control-label , .controls , .btn
+{
+font-size:15px;
+}
+th
+{
+text-decoration:underline;
+}
+
+
+::-webkit-input-placeholder { color:#dddddd; }
+::-moz-placeholder { color:#dddddd; } /* firefox 19+ */
+:-ms-input-placeholder { color:#dddddd; } /* ie */
+input:-moz-placeholder { color:#dddddd; }
