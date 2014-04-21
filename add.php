@@ -1,11 +1,11 @@
 
-
 <?php 
 require_once("includes/initialize.php"); 
 ?>
 
 	<?php
 	/* SEA,AMR,AFR,EUR,MED,WEP */
+	//Author is Awesome
 	/* $database->query("delete from patients where region_code='AMR'"); */
 	for($i=0;$i<5;$i++)
 	{
